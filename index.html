@@ -1,35 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-	<title>Aula 7</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
 
+
+	<title></title>
 </head>
 <body>
 
-	<form action="/redirect_form" method="post">
+	<div id="infPessoais" class="card">
+		<center>
+			<img src="gato.png">
+			<h4>Bruno Campos de Pierro</h4>
+			<span>Analista de Produtos</span><br>
+			<span>Mauá, Brazil</span><br>
+			<span>27 anos</span><br>
+			<span>bc.pierro1@gmail.com</span><br><br>
 		
-		<div>
-			<label for="Nome">Nome</label>
-			<input type="text" name="nome_user" id="Nome" placeholder="Nome e Sobrenome">
+		<div id="redesSociais">
+			<a href="http://www.facebook.com/dropez" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a>
+			<a href="http://www.twitter.com/dropeez" target="_blank"><i class="fab fa-twitter-square fa-2x"></i></a>
+			<a href="https://www.linkedin.com/in/bruno-pierro-53062431/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+			<a href="https://github.com/bruno-pierro" target="_blank"><i class="fab fa-github-square fa-2x"></i></a>
 		</div>
+		</center>
+	</div>
 
-		<div>
-			<label for="Email">E-mail</label>
-			<input type="email" name="email_user" id="Email" placeholder="E-mail">
-		</div>
+	<div id="expProfissional" class="card">
+		<h2 style="border-bottom: 1px solid rgba(0,0,0,.1);">Experência Profissional</h2>
+		<p>BLE BLE BLE BLE</p>
+		<p>BLE BLE BLE BLE</p>
+		<p>BLE BLE BLE BLE</p>
+		<p>BLE BLE BLE BLE</p>
+	</div>
 
-		<div>
-			<label for="MSG">Mensagem</label>
-			<textarea id="MSG" name="msg_user">Teste</textarea>
-		</div>
-		<div>
-			<button  type="submit">Enviar</button>
-			<button  type="reset">Limpar dados</button>
-		</div>
-	</form>
-
+	<div id="skills" class="card">
+		<h1 style="border-bottom: 1px solid rgba(0,0,0,.1);">BLA BLA BLA	</h1>
+		<p>BLE BLE BLE BLE</p>
+		<p>BLE BLE BLE BLE</p>
+		<p>BLE BLE BLE BLE</p>
+		<p>BLE BLE BLE BLE</p>
+	</div>
 </body>
 </html>
