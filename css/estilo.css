@@ -1,5 +1,5 @@
 body{
-	background-color: #f5f5f5 ;
+	background-color: #d0d5d8 ;
 	font-family: "Roboto","Helvetica","Arial",sans-serif;
 }
 .card{
@@ -12,7 +12,7 @@ body{
     width: 330px;
     z-index: 1;
     position: relative;
-    background: #fff;
+    background: #f2faff;
     border-radius: 5px;
     box-sizing: border-box;
     margin-top: 5%;
@@ -49,5 +49,5 @@ body{
 }
 .fab{
 	margin-top: 10px;
-	color: darkgray;
+	color: #6C787F;
 }
