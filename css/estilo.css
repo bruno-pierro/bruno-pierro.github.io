@@ -64,7 +64,7 @@ body{
 }
 
 .event1,
-.event2, .event3 {
+.event2, .event3, .event4 {
   position: relative;
 }
 
@@ -74,6 +74,16 @@ body{
     width: 200px;
     height: 114px;
     top: -119px;
+    left: -15px;
+  border-radius: 5px;
+  box-shadow: inset 0 0 5px rgba(158, 158, 158, 0.64)
+}
+.event3Bubble {
+  position: absolute;
+  background-color: rgba(158, 158, 158, 0.1);
+    width: 255px;
+    height: 167px;
+    top: -173px;
     left: -15px;
   border-radius: 5px;
   box-shadow: inset 0 0 5px rgba(158, 158, 158, 0.64)
@@ -89,7 +99,7 @@ body{
   border-radius: 5px;
   box-shadow: inset 0 0 5px rgba(158, 158, 158, 0.64)
 }
-.event1Bubble span, .event2Bubble span{
+.event1Bubble span, .event2Bubble span, .event3Bubble span{
   font-size: 12px;
   margin-left: 5%;
 }
@@ -97,7 +107,9 @@ body{
 .event1Bubble:after,
 .event1Bubble:before,
 .event2Bubble:after,
-.event2Bubble:before {
+.event2Bubble:before ,
+.event3Bubble:after,
+.event3Bubble:before {
   content: "";
   position: absolute;
   width: 0;
@@ -114,12 +126,6 @@ body{
   border-width: 12px;
 }
 
-.event1Bubble:after {
-  bottom: 155px;
-  left: 13px;
-  border-top-color: #F6F6F6;
-  border-width: 12px;
-}
 
 .event2Bubble:before {
   bottom: 170px;
@@ -133,17 +139,15 @@ body{
   transform: rotate(180deg);
 }
 
-.event2Bubble:after {
-  bottom: 168px;
-  left: 103px;
-  border-top-color: #F6F6F6;
+
+
+.event3Bubble:before {
+  bottom: -10px;
+  left: 13px;
+  border-top-color: rgba(222, 222, 222, 0.66);
   border-width: 12px;
-  -webkit-transform: rotate(180deg);
-  -moz-transform: rotate(180deg);
-  -o-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  transform: rotate(180deg);
 }
+
 
 .eventTime {
   display: flex;
