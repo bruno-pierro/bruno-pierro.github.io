@@ -2,6 +2,12 @@ body{
 	background-color: #d0d5d8 ;
 	font-family: "Roboto","Helvetica","Arial",sans-serif;
 }
+
+p{
+	font-family: 'Rubik', sans-serif;
+}
+
+
 .card{
     display: flex;
     flex-direction: column;
@@ -177,28 +183,7 @@ left: -239px;
   display: flex;
 }
 
-/*.DayDigit {
-  font-size: 27px;
-  font-family: "Arial Black", Gadget, sans-serif;
-  margin-left: 10px;
-  color: #4C4A4A;
-}
 
-.Day {
-  font-size: 11px;
-  margin-left: 5px;
-  font-weight: bold;
-  margin-top: 10px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #4C4A4A;
-}
-
-.MonthYear {
-  font-weight: 600;
-  line-height: 10px;
-  color: #9E9E9E;
-  font-size: 9px;
-}*/
 
 .eventTitle {
   font-family: "Arial Black", Gadget, sans-serif;
@@ -260,45 +245,93 @@ left: -239px;
   
 }
 
-progress[value] {
-	-moz-appearance: none;
-	appearance: none;
-	
-	border: none;
-	
-	width: 90%; height: 20px;
-	
-	border-radius: 3px;
-	box-shadow: 0 2px 3px rgba(0,0,0,.5) inset;
-	
-	color: royalblue;
-	
-	position: relative;
-	margin: 0 0 1.5em; 
-}
-.html::-webkit-progress-value {
-  background-color: red;
-  border-radius:3px;
-
+.progress-bar{
+	height: 20px;
+    background-color: whiteSmoke;
+    border-radius: 3px;
+    width: 90%;
+    box-shadow: 0 2px 3px rgba(0,0,0,.5) inset;
 }
 
-progress[value] {
-   /* Reset the default appearance */
-   
-   appearance: none;
-
-   /* leave defaults in for other browsers */
-   background-size: 35px 20px, 100% 100%, 100% 100%;
+.progress-bar #html{
+	height: 20px;
+    background-color: #ff0000ba;
+    border-radius: 3px;
+    width: 63%;
+    text-align: end;
+    justify-content: center;
+    animation: html 1s ease forwards;
+    color: #fff;
+    padding-right: 5px;    
+    
+}
+.progress-bar #css{
+	height: 20px;
+    background-color: #002bffba;
+    border-radius: 3px;
+    width: 54%;
+    text-align: end;
+    justify-content: center;
+    animation: css 1.2s ease forwards;
+    color: #fff;
+    padding-right: 5px;    
+    
+}
+.progress-bar #js{
+	height: 20px;
+    background-color: #095600ba;
+    border-radius: 3px;
+    width: 54%;
+    text-align: end;
+    justify-content: center;
+    animation: js 1.3s ease forwards;
+    color: #fff;
+    padding-right: 5px;    
+    
+}
+.progress-bar #analytics{
+	height: 20px;
+    background-color: #908c03ba;
+    border-radius: 3px;
+    width: 72%;
+    text-align: end;
+    justify-content: center;
+    animation: analytics 1.4s ease forwards;
+    color: #fff;
+    padding-right: 5px;    
+    
+}
+.progress-bar #adserver{
+	height: 20px;
+    background-color: #ce2004ba;
+    border-radius: 3px;
+    width: 81%;
+    text-align: end;
+    justify-content: center;
+    animation: html 1.5s ease forwards;
+    color: #fff;
+    padding-right: 5px;    
+    
 }
 
-
-progress[value]::-webkit-progress-bar {
-	background-color: whiteSmoke;
-	border-radius: 3px;
-	box-shadow: 0 2px 3px rgba(0,0,0,.5) inset;
+@keyframes html {
+    from { width: 0%; }
+    to { width: 63%; }
 }
-
-
-@keyframes animate-stripes { 100% { background-position: -100px 0; } }
-
+@keyframes css {
+    from { width: 0%; }
+    to { width: 54%; }
+}
+@keyframes js {
+    from { width: 0%; }
+    to { width: 54%; }
+}
+@keyframes analytics {
+    from { width: 0%; }
+    to { width: 72%; }
+}
+@keyframes adserver {
+    from { width: 0%; }
+    to { width: 81%; }
+}
 
