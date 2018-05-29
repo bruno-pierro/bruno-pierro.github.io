@@ -41,6 +41,7 @@ p{
 
 #redesSociais{
 	border-top: 1px solid rgba(0,0,0,.1);
+	padding-top: 40px;	
 }
 
 #expProfissional{
@@ -59,15 +60,18 @@ p{
 }
 
 
-
+.fa-2x {
+    
+    transition: font-size .2s ease;
+}
 
 
 
 .timeline {
   display: flex;
   align-items: center;
-  height: 450px;
-  width: 932px;
+  height: 430px;
+  padding-right: 8px;
 }
 
 .event1,
@@ -206,7 +210,7 @@ left: -239px;
   width: 50px;
   font-size: 8px;
   margin-top: -3px;
-  margin-left: -5px;
+  margin-left: -13px;
   color: #9E9E9E;
 }
 
@@ -216,7 +220,7 @@ left: -239px;
   width: 50px;
   font-size: 8px;
   margin-top: -37px;
-  margin-left: -5px;
+  margin-left: -13px;
   color: #9E9E9E;
 }
 
@@ -312,6 +316,11 @@ left: -239px;
     color: #fff;
     padding-right: 5px;    
     
+}
+
+#alt{
+	font-size: 10px;
+	color: red;
 }
 
 @keyframes html {

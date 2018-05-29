@@ -6,6 +6,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Rubik:500" rel="stylesheet">
+	<script  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="  crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
 
 
 	<title></title>
@@ -41,15 +43,15 @@
 
 			<div class="event1">
 
-				<div class="event1Bubble">
+				<div class="event1Bubble" style="visibility: hidden;">
 					<div class="eventTitle">Chleba Agência Digital (OPEC)</div>
 					<span>- Reponsável pela inserção de publicidade no portal IG.</span><br>
 					<span>- Teste de peças publicitárias.</span>
 				</div>
-				<svg height="20" width="20">
+				<svg height="20" width="20" class="event1Trigger">
 					<circle cx="10" cy="11" r="5" fill="#6C787F" />
 				</svg>
-				<div class="time">Jan/11 - Mar/13</div>
+				<div class="time" id="time1">Jan/11 - Mar/13</div>
 
 			</div>
 
@@ -59,7 +61,7 @@
 
 			<div class="event2">
 
-				<div class="event2Bubble">
+				<div class="event2Bubble" style="visibility: hidden;">
 					<div class="eventTitle">IG (Adtech/Adops)</div>
 					<span>- Controle de Inventário</span><br>
 					<span>-Programação de novas campanhas</span><br>
@@ -69,7 +71,7 @@
 					<span>-Homologação de novas peças e formatos</span><br>
 					<span>-Programação de templates para servir as peças</span><br>
 				</div>
-				<svg height="20" width="20">
+				<svg height="20" width="20" class="event2Trigger">
 					<circle cx="10" cy="11" r="5" fill="#6C787F" />
 				</svg>
 				<div class="time2">Mar/13 - Jun/16</div>
@@ -81,17 +83,17 @@
 
 			<div class="event3">
 
-				<div class="event3Bubble">
+				<div class="event3Bubble" style="visibility: hidden;">
 					<div class="eventTitle">Estadão (Analista de Performance)</div>
 					<span>- Otimização de campanhas seguindo o KPI exigido pelo cliente.</span><br>
 					<span>- Análise de perfil de usuários</span><br>
 					<span>- Consultas de audiência para a equipe de Branded Content elaborar os relatórios de pós venda</span><br>
 				</div>
 
-				<svg height="20" width="20">
+				<svg height="20" width="20" class="event3Trigger">
 					<circle cx="10" cy="11" r="5" fill="#6C787F" />
 				</svg>
-				<div class="time">Jun/16 - Mai/17</div>
+				<div class="time" id="time3">Jun/16 - Mai/17</div>
 			</div>
 
 			<svg height="5" width="200">
@@ -101,7 +103,7 @@
 
 			<div class="event4">
 
-				<div class="event4Bubble">
+				<div class="event4Bubble" style="visibility: hidden;">
 					<div class="eventTitle">Supportcomm (Analista de Produtos)</div>
 					<span>- Inserção de campanhas no portal Vivo Ads.</span><br>
 					<span>- Programação de páginas de branded content</span><br>
@@ -113,6 +115,7 @@
 			</div>
 
 		</div>
+		<span id="alt">Passe o mouse sobre as datas</span>
 	</center>
 	</div>
 
