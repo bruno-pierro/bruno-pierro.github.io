@@ -72,7 +72,7 @@ $('.fa-github-square').hover(function(){
 
 
 
-console.log('%c       ', 'font-size: 300px; background: url(https://raw.githubusercontent.com/bruno-pierro/bruno-pierro.github.io/master/img/tenor.gif) no-repeat;');
+console.log('%c       ', 'font-size: 200px; background: url(https://media1.tenor.com/images/3531bb3cb9d143706da30c5a3f6031c8/tenor.gif) no-repeat;');
 
 })
 
