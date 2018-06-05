@@ -20,7 +20,7 @@ $('.event3Trigger').hover(function(){
     $('.event3Bubble').css("visibility", "hidden")
 });
 
-$('.agora').hover(function(){
+$('.btn-secondary').hover(function(){
 	$('.event4Bubble').css("visibility", "visible");
 },function(){
     $('.event4Bubble').css("visibility", "hidden")
