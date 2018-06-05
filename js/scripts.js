@@ -67,6 +67,11 @@ $('.fa-github-square').hover(function(){
 	$(this).css("font-size", "3em");
 },function(){
     $(this).css("font-size", "2em")
+})
+$('.fa-envelope-square').hover(function(){
+	$(this).css("font-size", "3em");
+},function(){
+    $(this).css("font-size", "2em")
 });
 
 

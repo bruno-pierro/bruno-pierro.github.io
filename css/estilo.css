@@ -84,7 +84,12 @@ body:before {
 	transition: font-size .2s ease;
 }
 
-
+.envelope{
+	color: #6c787f !important;
+}
+.envelope:hover{
+	color: #6c787f !important;
+}
 
 .timeline {
 	display: flex;
