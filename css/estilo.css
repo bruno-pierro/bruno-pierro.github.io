@@ -46,7 +46,7 @@ body:before {
 #infPessoais{
 	max-width: 250px;
 	float: left;
-	height: 541px;
+	height: 540px;
 }
 #infPessoais img{
 	width: 200px;
@@ -61,17 +61,27 @@ body:before {
 }
 
 #expProfissional{
-	float: left;
+	float: right;
 	width: 67%;
 	padding-left: 10px;
 	height: 540px;
 }
 #skills{
-	float: left;
+	float: right;
 	width: 67%;
 	padding-left: 10px;
-	height: 454px;
+	height: 360px;
 	margin-top: 30px;
+}
+#certificados{
+	float: right;
+	width: 67%;
+	padding-left: 10px;
+	height: 360px;
+	margin-top: 30px;
+}
+.progress{
+	width: 98%;
 }
 .fab{
 	margin-top: 10px;
@@ -274,18 +284,11 @@ body:before {
 
 }
 
-.progress-bar{
-	height: 20px;
-	background-color: whiteSmoke;
-	border-radius: 3px;
-	width: 90%;
-	box-shadow: 0 2px 3px rgba(0,0,0,.5) inset;
-}
 
-.progress-bar #html{
-	height: 20px;
-	background-color: #ff0000ba;
+ #html,#adserver,#css,#js,#analytics{
+	color: #ffffff;
 	border-radius: 3px;
+	font-size: 15px;
 	width: 63%;
 	text-align: end;
 	justify-content: center;
@@ -294,54 +297,7 @@ body:before {
 	padding-right: 5px;    
 
 }
-.progress-bar #css{
-	height: 20px;
-	background-color: #002bffba;
-	border-radius: 3px;
-	width: 54%;
-	text-align: end;
-	justify-content: center;
-	animation: css 1.2s ease forwards;
-	color: #fff;
-	padding-right: 5px;    
 
-}
-.progress-bar #js{
-	height: 20px;
-	background-color: #095600ba;
-	border-radius: 3px;
-	width: 54%;
-	text-align: end;
-	justify-content: center;
-	animation: js 1.3s ease forwards;
-	color: #fff;
-	padding-right: 5px;    
-
-}
-.progress-bar #analytics{
-	height: 20px;
-	background-color: #908c03ba;
-	border-radius: 3px;
-	width: 72%;
-	text-align: end;
-	justify-content: center;
-	animation: analytics 1.4s ease forwards;
-	color: #fff;
-	padding-right: 5px;    
-
-}
-.progress-bar #adserver{
-	height: 20px;
-	background-color: #ce2004ba;
-	border-radius: 3px;
-	width: 81%;
-	text-align: end;
-	justify-content: center;
-	animation: html 1.5s ease forwards;
-	color: #fff;
-	padding-right: 5px;    
-
-}
 
 #alt{
 	font-size: 10px;
