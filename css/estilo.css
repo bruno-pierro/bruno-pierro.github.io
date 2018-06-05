@@ -246,7 +246,7 @@ body:before {
 	font-size: 8px;
 	margin-top: -3px;
 	margin-left: -13px;
-	color: #9E9E9E;
+	color: #575757;
 }
 
 .time2{
@@ -256,7 +256,7 @@ body:before {
 	font-size: 8px;
 	margin-top: -46px;
 	margin-left: -13px;
-	color: #9E9E9E;
+	color: #575757;
 }
 
 .agora{
@@ -286,14 +286,13 @@ body:before {
 
 
 #html,#adserver,#css,#js,#analytics{
-	color: #ffffff;
 	border-radius: 3px;
 	font-size: 15px;
 	width: 63%;
 	text-align: end;
 	justify-content: center;
 	animation: html 1s ease forwards;
-	color: #fff;
+	color: #000;
 	padding-right: 5px;    
 
 }
