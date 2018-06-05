@@ -19,7 +19,7 @@ body:before {
 	top: 0;
 	left: 0;
 	right: 0;
-	height: 121%;
+	height: 180%;
 	opacity: .8;
 }
 
@@ -118,8 +118,8 @@ body:before {
 	position: absolute;
 	background-color: rgba(158, 158, 158, 0.1);
 	width: 200px;
-    height: 127px;
-    top: -133px;
+	height: 127px;
+	top: -133px;
 	left: -15px;
 	border-radius: 5px;
 	box-shadow: inset 0 0 5px rgba(158, 158, 158, 0.64)
@@ -285,7 +285,7 @@ body:before {
 }
 
 
- #html,#adserver,#css,#js,#analytics{
+#html,#adserver,#css,#js,#analytics{
 	color: #ffffff;
 	border-radius: 3px;
 	font-size: 15px;
@@ -327,5 +327,51 @@ body:before {
 
 .alert{
 	width: 60% !important;
-    margin-top: 40px !important;
+	margin-top: 40px !important;
 }
+
+/*responsividade*/
+@media (min-width: 991px) and (max-width: 1199px) { 
+
+	#infPessoais img {
+		float: left;
+		margin-left: 10px;
+		margin-top: 3%;
+	}
+	#infPessoais {
+		max-width: 100%;
+		width: 67%;
+		float: right;
+		height: auto;
+	}
+	#redesSociais{
+		border-top: 0px;
+	}
+	.card{
+		margin-right: 15%;
+	}
+}
+@media  (max-width: 990px) { 
+
+	#infPessoais img {
+		float: left;
+		margin-left: 10px;
+		margin-top: 3%;
+	}
+	#infPessoais {
+	    max-width: 100%;
+	    float: right;
+	    height: 300px;
+	}
+	#redesSociais{
+		padding-top: 10px;
+		margin-top: 40px;
+	}
+	.card{
+		margin-right: auto;
+		width: 100% !important;
+	}
+}
+
+}
+
